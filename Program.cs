@@ -357,6 +357,9 @@ int eemenu = int.Parse(Console.ReadLine());
                                         case 61:
                                             Console.WriteLine("Nota minima para aprobar.");
                                             break;
+                                        case >= 0 and <= 60:
+                                            Console.WriteLine("Nota Reprobatoria");
+                                            break;
                                         default:
                                             Console.WriteLine("La nota ingresada no es valida.");
                                             break;
@@ -365,7 +368,6 @@ int eemenu = int.Parse(Console.ReadLine());
                                 else
                                 {
                                     Console.WriteLine("Los dígitos ingresados no son validos.");
-                                   
                                 }
                                 Console.ReadKey();
                                 break;
